@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Sharing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700;6..12,800;6..12,900&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__content container">
+            <div class="content__logo">
+                <img src="./images/Icon Logo Normal.svg" alt="">
+                <p><span>car</span>sharing</p>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__element"><a href="#">home</a></li>
+                    <li class="nav__element"><a href="#blog">blog</a></li>
+                    <li class="nav__element"><a href="#service">service</a></li>
+                    <li class="nav__element"><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__content container">
+
+            <h1 class="hero__title">car sharing</h1>
+            <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="button__content">
+                <a class="button__left" href="/">share a car</a>
+                <a class="button__right" href="/">key features</a>
+            </div>
+        </div>
+
+        <a href="#blog"><img class="hero__arrow" src="./images/Icon Arrow Down.svg" alt="">
+        </a>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="blog__content container">
+            <h2 class="blog__title">blog</h2>
+            <div class="blog__articles">
+                <div class="article__card">
+                    <img src="./images/photo1.png" alt="skrzynia automatyczna">
+                    <h3 class="article__title">Lorem ipsum dolor</h3>
+                    <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="article__button" href="/">read more</a>
+                </div>
+                <div class="article__card">
+                    <img src="./images/photo2.png" alt="czerwony samochód">
+                    <h3 class="article__title">Lorem ipsum dolor</h3>
+                    <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="article__button" href="/">read more</a>
+                </div>
+                <div class="article__card">
+                    <img src="./images/photo3.png" alt="silnik">
+                    <h3 class="article__title">Lorem ipsum dolor</h3>
+                    <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="article__button" href="/">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="service__content container">
+            <h2 class="service__title">service</h2>
+            <div class="service__cards">
+                <div class="service__card">
+                    <img src="./images/mini1.png" alt="">
+                    <h3 class="service-card__title">
+                        Lorem ipsum dolor sit
+                    </h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a class="service__button" href="/">read more</a>
+                </div>
+
+                <div class="service__card">
+                    <img src="./images/mini2.png" alt="">
+                    <h3 class="service-card__title">
+                        Lorem ipsum dolor sit
+                    </h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a class="service__button" href="/">read more</a>
+                </div>
+
+                <div class="service__card">
+                    <img src="./images/mini3.png" alt="">
+                    <h3 class="service-card__title">
+                        Lorem ipsum dolor sit
+                    </h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a class="service__button" href="/">read more</a>
+                </div>
+
+                <div class="service__card">
+                    <img src="./images/mini4.png" alt="">
+                    <h3 class="service-card__title">
+                        Lorem ipsum dolor sit
+                    </h3>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a class="service__button" href="/">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact__content container">
+            <h2 class="contact__title">contact</h2>
+            <div class="contact__form">
+                <img class="form__img" src="./images/Form Photo.png" alt="">
+                <form>
+                    <div class="name">
+                        <input type="text" placeholder="Type your name">
+                    </div>
+                    <div class="email">
+                        <input type="email" placeholder="Type your e-mail">
+                    </div>
+                    <div class="message">
+                        <textarea cols="30" rows="10" placeholder="Type your message"></textarea>
+                    </div>
+                    <button type="submit">send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
